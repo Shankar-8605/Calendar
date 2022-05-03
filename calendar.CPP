@@ -109,6 +109,7 @@ void printCalender(int year)
     {
 
     current=no_of_space(i,year);
+    current=current%7;
      switch(i)
     {
     case 0:
